@@ -1,0 +1,89 @@
+@media (max-width: 576px)
+ {
+
+  /* Typography */
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  /* Grid columns */
+  [class^="col-"] {
+    width: 100%;
+  }
+
+  /* Banner */
+  .banner {
+    margin: 12px;
+    border-radius: 20px;
+  }
+
+  .banner-content {
+    padding: 40px 15px;
+  }
+
+  /* Buttons */
+  .button,
+  .button-1,
+  .appt-btn,
+  .btn-1,
+  .btn-2 {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  /* Images */
+  .nurse-1,
+  .avatar,
+  .bookappt-img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  /* Cards */
+  .cards-section-1,
+  .cards-section-2 {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  /* Review section */
+  .review-section {
+    padding: 40px 20px;
+    margin: 0;
+  }
+
+  .avatars {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .avatar-left,
+  .avatar-right {
+    transform: none;
+  }
+
+  /* Footer */
+  .footer-row {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .footer {
+    padding: 40px 20px;
+  }
+
+}
